@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lbe.gg/static/css/main.368a4919.chunk.css",
-    "main.js": "/lbe.gg/static/js/main.b8fb50d4.chunk.js",
-    "main.js.map": "/lbe.gg/static/js/main.b8fb50d4.chunk.js.map",
+    "main.css": "/lbe.gg/static/css/main.2155eefd.chunk.css",
+    "main.js": "/lbe.gg/static/js/main.a5c0df2d.chunk.js",
+    "main.js.map": "/lbe.gg/static/js/main.a5c0df2d.chunk.js.map",
     "runtime-main.js": "/lbe.gg/static/js/runtime-main.c0544a9e.js",
     "runtime-main.js.map": "/lbe.gg/static/js/runtime-main.c0544a9e.js.map",
     "static/js/2.06da36c7.chunk.js": "/lbe.gg/static/js/2.06da36c7.chunk.js",
     "static/js/2.06da36c7.chunk.js.map": "/lbe.gg/static/js/2.06da36c7.chunk.js.map",
     "index.html": "/lbe.gg/index.html",
-    "static/css/main.368a4919.chunk.css.map": "/lbe.gg/static/css/main.368a4919.chunk.css.map",
+    "static/css/main.2155eefd.chunk.css.map": "/lbe.gg/static/css/main.2155eefd.chunk.css.map",
     "static/js/2.06da36c7.chunk.js.LICENSE.txt": "/lbe.gg/static/js/2.06da36c7.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/lbe.gg/static/media/Poppins-Regular.ccfdd78d.ttf",
     "static/media/twitter.8097ca9d.svg": "/lbe.gg/static/media/twitter.8097ca9d.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0544a9e.js",
     "static/js/2.06da36c7.chunk.js",
-    "static/css/main.368a4919.chunk.css",
-    "static/js/main.b8fb50d4.chunk.js"
+    "static/css/main.2155eefd.chunk.css",
+    "static/js/main.a5c0df2d.chunk.js"
   ]
 }
