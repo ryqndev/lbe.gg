@@ -12,14 +12,18 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: 1fr;
         column-gap: 10px;
+        mix-blend-mode: difference;
+
         &>* {
             display: grid;
             place-content: center;
         }
+
         &>p {
             font-size: 1.2em;
             font-weight: bold;
         }
+
         & svg {
             height: 28px;
             width: 28px;
@@ -27,6 +31,7 @@
     }
 
     &>.splash {
+        background-color: black;
         height: 100vh;
         padding-bottom: 400px;
         width: 100%;
@@ -51,6 +56,7 @@
             font-size: 12em;
             writing-mode: vertical-lr;
         }
+
         &>.overlay {
             position: fixed;
             background-color: white;
@@ -62,31 +68,44 @@
         }
     }
 
-    &>.about {
-        height: 80vh;
-        display: grid;
-        place-content: center;
-        background-color: black;
+    &>.diagonal {
+        border-left: 50vw solid black;
+        border-right: 50vw solid white;
 
-        &>.content {
-            max-width: 800px;
-            text-align: center;
-            font-size: 2em;
-
-            &>h2 {
-                margin: 20px;
-                font-family: 'Vesper Libre';
-                font-size: 1.5em;
-
-                &>span {
-                    font-weight: bold;
-                }
-            }
-
-            &>p {
-                font-size: 1em;
-                font-family: 'Rokkitt';
-            }
+        &.top {
+            border-top: 30vh solid black;
+            border-bottom: 30vh solid white;
         }
+
+        &.bottom {
+            border-top: 30vh solid white;
+            border-bottom: 30vh solid black;
+        }
+
+    }
+
+    // &>.content {
+    //     max-width: 800px;
+    //     text-align: center;
+    //     font-size: 2em;
+
+    //     &>h2 {
+    //         margin: 20px;
+    //         font-family: 'Vesper Libre';
+    //         font-size: 1.5em;
+
+    //         &>span {
+    //             font-weight: bold;
+    //         }
+    //     }
+
+    //     &>p {
+    //         font-size: 1em;
+    //         font-family: 'Rokkitt';
+    //     }
+    // }
+    &>.post {
+        height: 140vh;
+        background-color: white;
     }
 }

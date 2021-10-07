@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { ReactComponent as TwitterLogo } from '../../../assets/icons/twitter.svg';
 import cn from './Home.module.scss';
 
@@ -7,7 +8,13 @@ const Home = () => {
 			<div className={cn.socials}>
 				<p>SOCIALS</p>
 				<span>{'//'}</span>
-				<TwitterLogo />
+				<a
+					href='https://twitter.com/labibesports'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<TwitterLogo />
+				</a>
 			</div>
 			<div className={cn.splash}>
 				<div className={cn.left}>La Biblioteca Esports</div>
@@ -16,21 +23,9 @@ const Home = () => {
 				</div>
 				<div className={cn.overlay}></div>
 			</div>
-			<div className={cn.about}>
-				<div className={cn.content}>
-					{/* <h2>
-						What is{' '}
-						<span className='gradient_text__component'>LBE</span>?
-					</h2>
-					<p>
-						We are an esports organization dedicated to pushing the
-						boundaries of esports. Fielding not only the best
-						players at all levels in various leagues, we support
-						them with custom in-house tools to maximize thier
-						potential.
-					</p> */}
-				</div>
-			</div>
+			<div className={clsx(cn.diagonal, cn.top)}></div>
+			<div className={cn.post}></div>
+			<div className={clsx(cn.diagonal, cn.bottom)}></div>
 		</div>
 	);
 };
