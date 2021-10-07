@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    padding-bottom: 300px;
+    overscroll-behavior: none;
+
+    &>.socials {
+        position: fixed;
+        bottom: 50px;
+        left: 50px;
+        display: grid;
+        place-content: center;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+        &>* {
+            display: grid;
+            place-content: center;
+        }
+        &>p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        & svg {
+            height: 28px;
+            width: 28px;
+        }
+    }
+
+    &>.splash {
+        height: 100vh;
+        padding-bottom: 400px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 650px 1fr;
+        font: bold 2.5em 'Poppins';
+
+        &>.left {
+            display: grid;
+            place-content: center start;
+            padding: 0 0 27px 50px;
+            text-transform: uppercase;
+        }
+
+        &>.right {
+            position: relative;
+            z-index: 10;
+            margin: 0;
+            display: grid;
+            place-content: center start;
+            padding: 0;
+            font-size: 12em;
+            writing-mode: vertical-lr;
+        }
+        &>.overlay {
+            position: fixed;
+            background-color: white;
+            height: 70vh;
+            width: 85vw;
+            top: 15vh;
+            left: 7.5vw;
+            mix-blend-mode: difference;
+        }
+    }
+
+    &>.about {
+        height: 80vh;
+        display: grid;
+        place-content: center;
+        background-color: black;
+
+        &>.content {
+            max-width: 800px;
+            text-align: center;
+            font-size: 2em;
+
+            &>h2 {
+                margin: 20px;
+                font-family: 'Vesper Libre';
+                font-size: 1.5em;
+
+                &>span {
+                    font-weight: bold;
+                }
+            }
+
+            &>p {
+                font-size: 1em;
+                font-family: 'Rokkitt';
+            }
+        }
+    }
+}
