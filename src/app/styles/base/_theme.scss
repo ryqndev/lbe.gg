@@ -1,4 +1,5 @@
 :root {
+    --black: #000000;
     --gray-1: #151515;
     --gray-2: #252525;
     --gray-2-transparent: #15151588;
@@ -7,7 +8,8 @@
 }
 
 :root {
-    --bg-primary: var(--gray-1);
+    --bg-primary: var(--black);
+    // --bg-primary: var(--gray-1);
     --text-primary: var(--white);
 
     --navigation-bar-bg: var(--gray-2-transparent);

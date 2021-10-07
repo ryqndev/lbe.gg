@@ -1,4 +1,9 @@
 .gradient_text__component {
+    position: relative;
+    z-index: 10;
+
+    font-weight: bold;
+
     background-image: linear-gradient(45deg, #ff00ff, #00ffff);
     background-clip: text;
     -webkit-background-clip: text;
